@@ -703,7 +703,7 @@ Category List
 }
 
 .card-bank-active {
-    background-image: linear-gradient(#E4F4FF,#E4F4FF), url('../images/blue-polka.png');
+    background-image: linear-gradient(#e4f4ff1f,#e4f4ff1f), url('../images/blue-polka.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -721,4 +721,65 @@ Category List
 
 .dashboard-data-rekening .card.card-bank-active {
     border-style: solid;
+}
+
+.dashboard-galang-dana .input-group .input-group-text {
+    background-color: transparent !important;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.dashboard-galang-dana .input-group input {
+    border-left: 0;
+    padding-left: 0;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dashboard-galang-dana table tr th,
+.dashboard-galang-dana table tr td {
+    padding: 8px;
+}
+
+.dashboard-galang-dana .nav-tabs {
+    border-bottom: 3px solid #EFEFEF !important;
+}
+
+.dashboard-galang-dana .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    border: 0;
+    color: #CDCDCD;
+}
+
+.dashboard-galang-dana .nav-tabs .nav-item .nav-link.active {
+    color: #479EB9 !important;
+    border-bottom: 2px solid #479EB9 !important;
+}
+
+.pagination li {
+    margin-left: 15px;
+}
+
+.pagination li a {
+    min-width: 25px;
+    min-height: 25px;
+    border: 2px solid #BEBEBE;
+    border-radius: 0 !important;
+    color: #BEBEBE;
+}
+
+.pagination li.page-item.active a {
+    
+    border: 2px solid #1D7996;
+    background-color: transparent;
+    border-color: #1D7996;
+    color: #1D7996;
+}
+
+.br-8{
+    border-radius: 8px !important;
 }
